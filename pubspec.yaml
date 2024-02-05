@@ -1,7 +1,7 @@
 name: junes_flutter_architecture
 description: "An extremely intuitive architecture with incredibly high productivity."
-version: 0.8.4
-homepage: https://github.com/melodysdreamj/Junes-Flutter-Architecture
+version: 0.8.5
+homepage: https://github.com/melodysdreamj/junes_flutter_architecture_pakage
 
 environment:
   sdk: '>=3.2.5 <4.0.0'
