@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import 'package:page_transition/page_transition.dart';
 import 'package:styled_widget/styled_widget.dart';
@@ -456,7 +455,7 @@ class FloatingActionButtonKit extends StatelessWidget {
       isOpenOnStart: false,
       children: [
         SpeedDialChild(
-          child: Icon(MdiIcons.numeric1),
+          child: Text("1"),
           label: label1,
           onTap: () {
             debugPrint("button:${label1 ?? "1"} clicked");
@@ -466,7 +465,7 @@ class FloatingActionButtonKit extends StatelessWidget {
           },
         ),
         SpeedDialChild(
-          child: Icon(MdiIcons.numeric2),
+          child: Text("2"),
           label: label2,
           onTap: () {
             debugPrint("button:${label2 ?? "2"} clicked");
@@ -476,7 +475,7 @@ class FloatingActionButtonKit extends StatelessWidget {
           },
         ),
         SpeedDialChild(
-          child: Icon(MdiIcons.numeric3),
+          child: Text("3"),
           label: label3,
           onTap: () {
             debugPrint("button:${label3 ?? "3"} clicked");
@@ -486,7 +485,7 @@ class FloatingActionButtonKit extends StatelessWidget {
           },
         ),
         SpeedDialChild(
-          child: Icon(MdiIcons.numeric3),
+          child: Icon(Icons.menu),
           label: "note",
           onTap: () {
             PracticeNoteKit().openPracticeNote(

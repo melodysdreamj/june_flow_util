@@ -418,16 +418,16 @@ class ScaffoldViewNoteKit extends StatelessWidget {
 
   Widget buttonType(
       {required String buttonName,
-      required Future<Widget> Function(BuildContext context) onTap,
-      required BuildContext context}) {
+        required Future<Widget> Function(BuildContext context) onTap,
+        required BuildContext context}) {
     return Text(buttonName)
         .fontSize(17)
         .fontWeight(FontWeight.w600)
         .center()
         .backgroundColor(Colors.transparent)
         .decorated(
-            border: Border.all(width: 2),
-            borderRadius: BorderRadius.circular(20))
+        border: Border.all(width: 2),
+        borderRadius: BorderRadius.circular(20))
         .paddingDirectional(all: 5)
         .gestures(onTap: () async {
       debugPrint("widget:$buttonName open");

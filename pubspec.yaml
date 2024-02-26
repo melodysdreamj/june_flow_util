@@ -14,10 +14,6 @@ dependencies:
   styled_widget: ^0.4.0+3
   page_transition: ^2.0.9
   flutter_speed_dial: ^7.0.0
-  material_design_icons_flutter: ^7.0.7296
-  insta_assets_picker: ^2.2.1
-  open_mail_app: ^0.4.5
-  url_launcher: ^6.0.20
 
 dev_dependencies:
   flutter_test:
