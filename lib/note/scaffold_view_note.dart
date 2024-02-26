@@ -4,8 +4,8 @@ import 'package:gap/gap.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:styled_widget/styled_widget.dart';
 
-class ScaffoldViewNoteKit2 extends StatelessWidget {
-  const ScaffoldViewNoteKit2({
+class ScaffoldViewNoteKit extends StatelessWidget {
+  const ScaffoldViewNoteKit({
     super.key,
     required this.title,
     required this.button00,
