@@ -14,6 +14,7 @@ dependencies:
   styled_widget: ^0.4.0+3
   page_transition: ^2.0.9
   flutter_speed_dial: ^7.0.0
+  gap:
 
 dev_dependencies:
   flutter_test:

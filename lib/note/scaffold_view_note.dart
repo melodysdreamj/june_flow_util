@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 import 'package:page_transition/page_transition.dart';
 import 'package:styled_widget/styled_widget.dart';
 
-class ScaffoldViewNoteKit extends StatelessWidget {
-  ScaffoldViewNoteKit({
+class ScaffoldViewNoteKit2 extends StatelessWidget {
+  const ScaffoldViewNoteKit2({
     super.key,
-    required this.button1,
-    required this.button2,
-    required this.button3,
     required this.button00,
     required this.button01,
     required this.button02,
@@ -109,560 +107,275 @@ class ScaffoldViewNoteKit extends StatelessWidget {
     required this.button97,
     required this.button98,
     required this.button99,
-    required this.buttonName00,
-    required this.buttonName01,
-    required this.buttonName02,
-    required this.buttonName03,
-    required this.buttonName04,
-    required this.buttonName05,
-    required this.buttonName06,
-    required this.buttonName07,
-    required this.buttonName08,
-    required this.buttonName09,
-    required this.buttonName10,
-    required this.buttonName11,
-    required this.buttonName12,
-    required this.buttonName13,
-    required this.buttonName14,
-    required this.buttonName15,
-    required this.buttonName16,
-    required this.buttonName17,
-    required this.buttonName18,
-    required this.buttonName19,
-    required this.buttonName20,
-    required this.buttonName21,
-    required this.buttonName22,
-    required this.buttonName23,
-    required this.buttonName24,
-    required this.buttonName25,
-    required this.buttonName26,
-    required this.buttonName27,
-    required this.buttonName28,
-    required this.buttonName29,
-    required this.buttonName30,
-    required this.buttonName31,
-    required this.buttonName32,
-    required this.buttonName33,
-    required this.buttonName34,
-    required this.buttonName35,
-    required this.buttonName36,
-    required this.buttonName37,
-    required this.buttonName38,
-    required this.buttonName39,
-    required this.buttonName40,
-    required this.buttonName41,
-    required this.buttonName42,
-    required this.buttonName43,
-    required this.buttonName44,
-    required this.buttonName45,
-    required this.buttonName46,
-    required this.buttonName47,
-    required this.buttonName48,
-    required this.buttonName49,
-    required this.buttonName50,
-    required this.buttonName51,
-    required this.buttonName52,
-    required this.buttonName53,
-    required this.buttonName54,
-    required this.buttonName55,
-    required this.buttonName56,
-    required this.buttonName57,
-    required this.buttonName58,
-    required this.buttonName59,
-    required this.buttonName60,
-    required this.buttonName61,
-    required this.buttonName62,
-    required this.buttonName63,
-    required this.buttonName64,
-    required this.buttonName65,
-    required this.buttonName66,
-    required this.buttonName67,
-    required this.buttonName68,
-    required this.buttonName69,
-    required this.buttonName70,
-    required this.buttonName71,
-    required this.buttonName72,
-    required this.buttonName73,
-    required this.buttonName74,
-    required this.buttonName75,
-    required this.buttonName76,
-    required this.buttonName77,
-    required this.buttonName78,
-    required this.buttonName79,
-    required this.buttonName80,
-    required this.buttonName81,
-    required this.buttonName82,
-    required this.buttonName83,
-    required this.buttonName84,
-    required this.buttonName85,
-    required this.buttonName86,
-    required this.buttonName87,
-    required this.buttonName88,
-    required this.buttonName89,
-    required this.buttonName90,
-    required this.buttonName91,
-    required this.buttonName92,
-    required this.buttonName93,
-    required this.buttonName94,
-    required this.buttonName95,
-    required this.buttonName96,
-    required this.buttonName97,
-    required this.buttonName98,
-    required this.buttonName99,
   });
 
-  final Function(BuildContext context) button1;
-  final Function(BuildContext context) button2;
-  final Function(BuildContext context) button3;
-  final Future<Widget> Function(BuildContext context) button00;
-  final Future<Widget> Function(BuildContext context) button01;
-  final Future<Widget> Function(BuildContext context) button02;
-  final Future<Widget> Function(BuildContext context) button03;
-  final Future<Widget> Function(BuildContext context) button04;
-  final Future<Widget> Function(BuildContext context) button05;
-  final Future<Widget> Function(BuildContext context) button06;
-  final Future<Widget> Function(BuildContext context) button07;
-  final Future<Widget> Function(BuildContext context) button08;
-  final Future<Widget> Function(BuildContext context) button09;
-  final Future<Widget> Function(BuildContext context) button10;
-  final Future<Widget> Function(BuildContext context) button11;
-  final Future<Widget> Function(BuildContext context) button12;
-  final Future<Widget> Function(BuildContext context) button13;
-  final Future<Widget> Function(BuildContext context) button14;
-  final Future<Widget> Function(BuildContext context) button15;
-  final Future<Widget> Function(BuildContext context) button16;
-  final Future<Widget> Function(BuildContext context) button17;
-  final Future<Widget> Function(BuildContext context) button18;
-  final Future<Widget> Function(BuildContext context) button19;
-  final Future<Widget> Function(BuildContext context) button20;
-  final Future<Widget> Function(BuildContext context) button21;
-  final Future<Widget> Function(BuildContext context) button22;
-  final Future<Widget> Function(BuildContext context) button23;
-  final Future<Widget> Function(BuildContext context) button24;
-  final Future<Widget> Function(BuildContext context) button25;
-  final Future<Widget> Function(BuildContext context) button26;
-  final Future<Widget> Function(BuildContext context) button27;
-  final Future<Widget> Function(BuildContext context) button28;
-  final Future<Widget> Function(BuildContext context) button29;
-  final Future<Widget> Function(BuildContext context) button30;
-  final Future<Widget> Function(BuildContext context) button31;
-  final Future<Widget> Function(BuildContext context) button32;
-  final Future<Widget> Function(BuildContext context) button33;
-  final Future<Widget> Function(BuildContext context) button34;
-  final Future<Widget> Function(BuildContext context) button35;
-  final Future<Widget> Function(BuildContext context) button36;
-  final Future<Widget> Function(BuildContext context) button37;
-  final Future<Widget> Function(BuildContext context) button38;
-  final Future<Widget> Function(BuildContext context) button39;
-  final Future<Widget> Function(BuildContext context) button40;
-  final Future<Widget> Function(BuildContext context) button41;
-  final Future<Widget> Function(BuildContext context) button42;
-  final Future<Widget> Function(BuildContext context) button43;
-  final Future<Widget> Function(BuildContext context) button44;
-  final Future<Widget> Function(BuildContext context) button45;
-  final Future<Widget> Function(BuildContext context) button46;
-  final Future<Widget> Function(BuildContext context) button47;
-  final Future<Widget> Function(BuildContext context) button48;
-  final Future<Widget> Function(BuildContext context) button49;
-  final Future<Widget> Function(BuildContext context) button50;
-  final Future<Widget> Function(BuildContext context) button51;
-  final Future<Widget> Function(BuildContext context) button52;
-  final Future<Widget> Function(BuildContext context) button53;
-  final Future<Widget> Function(BuildContext context) button54;
-  final Future<Widget> Function(BuildContext context) button55;
-  final Future<Widget> Function(BuildContext context) button56;
-  final Future<Widget> Function(BuildContext context) button57;
-  final Future<Widget> Function(BuildContext context) button58;
-  final Future<Widget> Function(BuildContext context) button59;
-  final Future<Widget> Function(BuildContext context) button60;
-  final Future<Widget> Function(BuildContext context) button61;
-  final Future<Widget> Function(BuildContext context) button62;
-  final Future<Widget> Function(BuildContext context) button63;
-  final Future<Widget> Function(BuildContext context) button64;
-  final Future<Widget> Function(BuildContext context) button65;
-  final Future<Widget> Function(BuildContext context) button66;
-  final Future<Widget> Function(BuildContext context) button67;
-  final Future<Widget> Function(BuildContext context) button68;
-  final Future<Widget> Function(BuildContext context) button69;
-  final Future<Widget> Function(BuildContext context) button70;
-  final Future<Widget> Function(BuildContext context) button71;
-  final Future<Widget> Function(BuildContext context) button72;
-  final Future<Widget> Function(BuildContext context) button73;
-  final Future<Widget> Function(BuildContext context) button74;
-  final Future<Widget> Function(BuildContext context) button75;
-  final Future<Widget> Function(BuildContext context) button76;
-  final Future<Widget> Function(BuildContext context) button77;
-  final Future<Widget> Function(BuildContext context) button78;
-  final Future<Widget> Function(BuildContext context) button79;
-  final Future<Widget> Function(BuildContext context) button80;
-  final Future<Widget> Function(BuildContext context) button81;
-  final Future<Widget> Function(BuildContext context) button82;
-  final Future<Widget> Function(BuildContext context) button83;
-  final Future<Widget> Function(BuildContext context) button84;
-  final Future<Widget> Function(BuildContext context) button85;
-  final Future<Widget> Function(BuildContext context) button86;
-  final Future<Widget> Function(BuildContext context) button87;
-  final Future<Widget> Function(BuildContext context) button88;
-  final Future<Widget> Function(BuildContext context) button89;
-  final Future<Widget> Function(BuildContext context) button90;
-  final Future<Widget> Function(BuildContext context) button91;
-  final Future<Widget> Function(BuildContext context) button92;
-  final Future<Widget> Function(BuildContext context) button93;
-  final Future<Widget> Function(BuildContext context) button94;
-  final Future<Widget> Function(BuildContext context) button95;
-  final Future<Widget> Function(BuildContext context) button96;
-  final Future<Widget> Function(BuildContext context) button97;
-  final Future<Widget> Function(BuildContext context) button98;
-  final Future<Widget> Function(BuildContext context) button99;
-
-  final String buttonName00;
-  final String buttonName01;
-  final String buttonName02;
-  final String buttonName03;
-  final String buttonName04;
-  final String buttonName05;
-  final String buttonName06;
-  final String buttonName07;
-  final String buttonName08;
-  final String buttonName09;
-  final String buttonName10;
-  final String buttonName11;
-  final String buttonName12;
-  final String buttonName13;
-  final String buttonName14;
-  final String buttonName15;
-  final String buttonName16;
-  final String buttonName17;
-  final String buttonName18;
-  final String buttonName19;
-  final String buttonName20;
-  final String buttonName21;
-  final String buttonName22;
-  final String buttonName23;
-  final String buttonName24;
-  final String buttonName25;
-  final String buttonName26;
-  final String buttonName27;
-  final String buttonName28;
-  final String buttonName29;
-  final String buttonName30;
-  final String buttonName31;
-  final String buttonName32;
-  final String buttonName33;
-  final String buttonName34;
-  final String buttonName35;
-  final String buttonName36;
-  final String buttonName37;
-  final String buttonName38;
-  final String buttonName39;
-  final String buttonName40;
-  final String buttonName41;
-  final String buttonName42;
-  final String buttonName43;
-  final String buttonName44;
-  final String buttonName45;
-  final String buttonName46;
-  final String buttonName47;
-  final String buttonName48;
-  final String buttonName49;
-  final String buttonName50;
-  final String buttonName51;
-  final String buttonName52;
-  final String buttonName53;
-  final String buttonName54;
-  final String buttonName55;
-  final String buttonName56;
-  final String buttonName57;
-  final String buttonName58;
-  final String buttonName59;
-  final String buttonName60;
-  final String buttonName61;
-  final String buttonName62;
-  final String buttonName63;
-  final String buttonName64;
-  final String buttonName65;
-  final String buttonName66;
-  final String buttonName67;
-  final String buttonName68;
-  final String buttonName69;
-  final String buttonName70;
-  final String buttonName71;
-  final String buttonName72;
-  final String buttonName73;
-  final String buttonName74;
-  final String buttonName75;
-  final String buttonName76;
-  final String buttonName77;
-  final String buttonName78;
-  final String buttonName79;
-  final String buttonName80;
-  final String buttonName81;
-  final String buttonName82;
-  final String buttonName83;
-  final String buttonName84;
-  final String buttonName85;
-  final String buttonName86;
-  final String buttonName87;
-  final String buttonName88;
-  final String buttonName89;
-  final String buttonName90;
-  final String buttonName91;
-  final String buttonName92;
-  final String buttonName93;
-  final String buttonName94;
-  final String buttonName95;
-  final String buttonName96;
-  final String buttonName97;
-  final String buttonName98;
-  final String buttonName99;
+  final S button00;
+  final S button01;
+  final S button02;
+  final S button03;
+  final S button04;
+  final S button05;
+  final S button06;
+  final S button07;
+  final S button08;
+  final S button09;
+  final S button10;
+  final S button11;
+  final S button12;
+  final S button13;
+  final S button14;
+  final S button15;
+  final S button16;
+  final S button17;
+  final S button18;
+  final S button19;
+  final S button20;
+  final S button21;
+  final S button22;
+  final S button23;
+  final S button24;
+  final S button25;
+  final S button26;
+  final S button27;
+  final S button28;
+  final S button29;
+  final S button30;
+  final S button31;
+  final S button32;
+  final S button33;
+  final S button34;
+  final S button35;
+  final S button36;
+  final S button37;
+  final S button38;
+  final S button39;
+  final S button40;
+  final S button41;
+  final S button42;
+  final S button43;
+  final S button44;
+  final S button45;
+  final S button46;
+  final S button47;
+  final S button48;
+  final S button49;
+  final S button50;
+  final S button51;
+  final S button52;
+  final S button53;
+  final S button54;
+  final S button55;
+  final S button56;
+  final S button57;
+  final S button58;
+  final S button59;
+  final S button60;
+  final S button61;
+  final S button62;
+  final S button63;
+  final S button64;
+  final S button65;
+  final S button66;
+  final S button67;
+  final S button68;
+  final S button69;
+  final S button70;
+  final S button71;
+  final S button72;
+  final S button73;
+  final S button74;
+  final S button75;
+  final S button76;
+  final S button77;
+  final S button78;
+  final S button79;
+  final S button80;
+  final S button81;
+  final S button82;
+  final S button83;
+  final S button84;
+  final S button85;
+  final S button86;
+  final S button87;
+  final S button88;
+  final S button89;
+  final S button90;
+  final S button91;
+  final S button92;
+  final S button93;
+  final S button94;
+  final S button95;
+  final S button96;
+  final S button97;
+  final S button98;
+  final S button99;
 
   Widget buttonType(
-      {required String buttonName,
-        required Future<Widget> Function(BuildContext context) onTap,
+      {required S button,
         required BuildContext context}) {
-    return Text(buttonName)
-        .fontSize(17)
-        .fontWeight(FontWeight.w600)
-        .center()
-        .backgroundColor(Colors.transparent)
-        .decorated(
-        border: Border.all(width: 2),
-        borderRadius: BorderRadius.circular(20))
-        .paddingDirectional(all: 5)
-        .gestures(onTap: () async {
-      debugPrint("widget:$buttonName open");
-      Navigator.push(
-        context,
-        PageTransition(
-          type: PageTransitionType.fade,
-          child: MediaQuery(
-            data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
-            child: Container(
-              color: Theme.of(context).colorScheme.background,
-              child: SafeArea(
-                child: await onTap(context),
+
+    return OutlinedButton(
+      onPressed: () async {
+        debugPrint("button:${button.name} clicked");
+        Navigator.push(
+          context,
+          PageTransition(
+            type: PageTransitionType.fade,
+            child: MediaQuery(
+              data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
+              child: Container(
+                color: Theme.of(context).colorScheme.background,
+                child: SafeArea(
+                  child: await button.onTap(context),
+                ),
               ),
             ),
+            isIos: true,
+            duration: const Duration(milliseconds: 400),
           ),
-          isIos: true,
-          duration: const Duration(milliseconds: 400),
+        );
+      },
+      style: OutlinedButton.styleFrom(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10),
         ),
-      );
-    });
+        side: BorderSide(
+            color: Theme.of(context).textTheme.bodyMedium!.color!,
+            width: 2), // 테두리 색상과 두께 설정
+      ),
+      child: Text(button.name)
+          .fontWeight(FontWeight.bold)
+          .textColor(Theme.of(context).textTheme.bodyMedium!.color!)
+          .padding(vertical: 15, horizontal: 20),
+    ).padding(
+      horizontal: 20,
+      vertical: 7,
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: GridView(
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 4,
-        ),
-        shrinkWrap: true,
-        physics: const BouncingScrollPhysics(),
-        children: [
-          buttonType(
-              buttonName: buttonName00, onTap: button00, context: context),
-          buttonType(
-              buttonName: buttonName01, onTap: button01, context: context),
-          buttonType(
-              buttonName: buttonName02, onTap: button02, context: context),
-          buttonType(
-              buttonName: buttonName03, onTap: button03, context: context),
-          buttonType(
-              buttonName: buttonName04, onTap: button04, context: context),
-          buttonType(
-              buttonName: buttonName05, onTap: button05, context: context),
-          buttonType(
-              buttonName: buttonName06, onTap: button06, context: context),
-          buttonType(
-              buttonName: buttonName07, onTap: button07, context: context),
-          buttonType(
-              buttonName: buttonName08, onTap: button08, context: context),
-          buttonType(
-              buttonName: buttonName09, onTap: button09, context: context),
-          buttonType(
-              buttonName: buttonName10, onTap: button10, context: context),
-          buttonType(
-              buttonName: buttonName11, onTap: button11, context: context),
-          buttonType(
-              buttonName: buttonName12, onTap: button12, context: context),
-          buttonType(
-              buttonName: buttonName13, onTap: button13, context: context),
-          buttonType(
-              buttonName: buttonName14, onTap: button14, context: context),
-          buttonType(
-              buttonName: buttonName15, onTap: button15, context: context),
-          buttonType(
-              buttonName: buttonName16, onTap: button16, context: context),
-          buttonType(
-              buttonName: buttonName17, onTap: button17, context: context),
-          buttonType(
-              buttonName: buttonName18, onTap: button18, context: context),
-          buttonType(
-              buttonName: buttonName19, onTap: button19, context: context),
-          buttonType(
-              buttonName: buttonName20, onTap: button20, context: context),
-          buttonType(
-              buttonName: buttonName21, onTap: button21, context: context),
-          buttonType(
-              buttonName: buttonName22, onTap: button22, context: context),
-          buttonType(
-              buttonName: buttonName23, onTap: button23, context: context),
-          buttonType(
-              buttonName: buttonName24, onTap: button24, context: context),
-          buttonType(
-              buttonName: buttonName25, onTap: button25, context: context),
-          buttonType(
-              buttonName: buttonName26, onTap: button26, context: context),
-          buttonType(
-              buttonName: buttonName27, onTap: button27, context: context),
-          buttonType(
-              buttonName: buttonName28, onTap: button28, context: context),
-          buttonType(
-              buttonName: buttonName29, onTap: button29, context: context),
-          buttonType(
-              buttonName: buttonName30, onTap: button30, context: context),
-          buttonType(
-              buttonName: buttonName31, onTap: button31, context: context),
-          buttonType(
-              buttonName: buttonName32, onTap: button32, context: context),
-          buttonType(
-              buttonName: buttonName33, onTap: button33, context: context),
-          buttonType(
-              buttonName: buttonName34, onTap: button34, context: context),
-          buttonType(
-              buttonName: buttonName35, onTap: button35, context: context),
-          buttonType(
-              buttonName: buttonName36, onTap: button36, context: context),
-          buttonType(
-              buttonName: buttonName37, onTap: button37, context: context),
-          buttonType(
-              buttonName: buttonName38, onTap: button38, context: context),
-          buttonType(
-              buttonName: buttonName39, onTap: button39, context: context),
-          buttonType(
-              buttonName: buttonName40, onTap: button40, context: context),
-          buttonType(
-              buttonName: buttonName41, onTap: button41, context: context),
-          buttonType(
-              buttonName: buttonName42, onTap: button42, context: context),
-          buttonType(
-              buttonName: buttonName43, onTap: button43, context: context),
-          buttonType(
-              buttonName: buttonName44, onTap: button44, context: context),
-          buttonType(
-              buttonName: buttonName45, onTap: button45, context: context),
-          buttonType(
-              buttonName: buttonName46, onTap: button46, context: context),
-          buttonType(
-              buttonName: buttonName47, onTap: button47, context: context),
-          buttonType(
-              buttonName: buttonName48, onTap: button48, context: context),
-          buttonType(
-              buttonName: buttonName49, onTap: button49, context: context),
-          buttonType(
-              buttonName: buttonName50, onTap: button50, context: context),
-          buttonType(
-              buttonName: buttonName51, onTap: button51, context: context),
-          buttonType(
-              buttonName: buttonName52, onTap: button52, context: context),
-          buttonType(
-              buttonName: buttonName53, onTap: button53, context: context),
-          buttonType(
-              buttonName: buttonName54, onTap: button54, context: context),
-          buttonType(
-              buttonName: buttonName55, onTap: button55, context: context),
-          buttonType(
-              buttonName: buttonName56, onTap: button56, context: context),
-          buttonType(
-              buttonName: buttonName57, onTap: button57, context: context),
-          buttonType(
-              buttonName: buttonName58, onTap: button58, context: context),
-          buttonType(
-              buttonName: buttonName59, onTap: button59, context: context),
-          buttonType(
-              buttonName: buttonName60, onTap: button60, context: context),
-          buttonType(
-              buttonName: buttonName61, onTap: button61, context: context),
-          buttonType(
-              buttonName: buttonName62, onTap: button62, context: context),
-          buttonType(
-              buttonName: buttonName63, onTap: button63, context: context),
-          buttonType(
-              buttonName: buttonName64, onTap: button64, context: context),
-          buttonType(
-              buttonName: buttonName65, onTap: button65, context: context),
-          buttonType(
-              buttonName: buttonName66, onTap: button66, context: context),
-          buttonType(
-              buttonName: buttonName67, onTap: button67, context: context),
-          buttonType(
-              buttonName: buttonName68, onTap: button68, context: context),
-          buttonType(
-              buttonName: buttonName69, onTap: button69, context: context),
-          buttonType(
-              buttonName: buttonName70, onTap: button70, context: context),
-          buttonType(
-              buttonName: buttonName71, onTap: button71, context: context),
-          buttonType(
-              buttonName: buttonName72, onTap: button72, context: context),
-          buttonType(
-              buttonName: buttonName73, onTap: button73, context: context),
-          buttonType(
-              buttonName: buttonName74, onTap: button74, context: context),
-          buttonType(
-              buttonName: buttonName75, onTap: button75, context: context),
-          buttonType(
-              buttonName: buttonName76, onTap: button76, context: context),
-          buttonType(
-              buttonName: buttonName77, onTap: button77, context: context),
-          buttonType(
-              buttonName: buttonName78, onTap: button78, context: context),
-          buttonType(
-              buttonName: buttonName79, onTap: button79, context: context),
-          buttonType(
-              buttonName: buttonName80, onTap: button80, context: context),
-          buttonType(
-              buttonName: buttonName81, onTap: button81, context: context),
-          buttonType(
-              buttonName: buttonName82, onTap: button82, context: context),
-          buttonType(
-              buttonName: buttonName83, onTap: button83, context: context),
-          buttonType(
-              buttonName: buttonName84, onTap: button84, context: context),
-          buttonType(
-              buttonName: buttonName85, onTap: button85, context: context),
-          buttonType(
-              buttonName: buttonName86, onTap: button86, context: context),
-          buttonType(
-              buttonName: buttonName87, onTap: button87, context: context),
-          buttonType(
-              buttonName: buttonName88, onTap: button88, context: context),
-          buttonType(
-              buttonName: buttonName89, onTap: button89, context: context),
-          buttonType(
-              buttonName: buttonName90, onTap: button90, context: context),
-          buttonType(
-              buttonName: buttonName91, onTap: button91, context: context),
-          buttonType(
-              buttonName: buttonName92, onTap: button92, context: context),
-          buttonType(
-              buttonName: buttonName93, onTap: button93, context: context),
-          buttonType(
-              buttonName: buttonName94, onTap: button94, context: context),
-          buttonType(
-              buttonName: buttonName95, onTap: button95, context: context),
-          buttonType(
-              buttonName: buttonName96, onTap: button96, context: context),
-          buttonType(
-              buttonName: buttonName97, onTap: button97, context: context),
-          buttonType(
-              buttonName: buttonName98, onTap: button98, context: context),
-          buttonType(
-              buttonName: buttonName99, onTap: button99, context: context),
-        ],
-      ).paddingDirectional(all: 10),
-    );
+        body: ListView(
+          // gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          //   crossAxisCount: 4,
+          // ),
+          shrinkWrap: true,
+          physics: const BouncingScrollPhysics(),
+          children: [
+            const Text("Note")
+                .textStyle(Theme.of(context).textTheme.displaySmall!)
+                .fontWeight(FontWeight.bold)
+                .center(),
+            const Gap(20),
+            buttonType(button: button00, context: context),
+            buttonType(button: button01, context: context),
+            buttonType(button: button02, context: context),
+            buttonType(button: button03, context: context),
+            buttonType(button: button04, context: context),
+            buttonType(button: button05, context: context),
+            buttonType(button: button06, context: context),
+            buttonType(button: button07, context: context),
+            buttonType(button: button08, context: context),
+            buttonType(button: button09, context: context),
+            buttonType(button: button10, context: context),
+            buttonType(button: button11, context: context),
+            buttonType(button: button12, context: context),
+            buttonType(button: button13, context: context),
+            buttonType(button: button14, context: context),
+            buttonType(button: button15, context: context),
+            buttonType(button: button16, context: context),
+            buttonType(button: button17, context: context),
+            buttonType(button: button18, context: context),
+            buttonType(button: button19, context: context),
+            buttonType(button: button20, context: context),
+            buttonType(button: button21, context: context),
+            buttonType(button: button22, context: context),
+            buttonType(button: button23, context: context),
+            buttonType(button: button24, context: context),
+            buttonType(button: button25, context: context),
+            buttonType(button: button26, context: context),
+            buttonType(button: button27, context: context),
+            buttonType(button: button28, context: context),
+            buttonType(button: button29, context: context),
+            buttonType(button: button30, context: context),
+            buttonType(button: button31, context: context),
+            buttonType(button: button32, context: context),
+            buttonType(button: button33, context: context),
+            buttonType(button: button34, context: context),
+            buttonType(button: button35, context: context),
+            buttonType(button: button36, context: context),
+            buttonType(button: button37, context: context),
+            buttonType(button: button38, context: context),
+            buttonType(button: button39, context: context),
+            buttonType(button: button40, context: context),
+            buttonType(button: button41, context: context),
+            buttonType(button: button42, context: context),
+            buttonType(button: button43, context: context),
+            buttonType(button: button44, context: context),
+            buttonType(button: button45, context: context),
+            buttonType(button: button46, context: context),
+            buttonType(button: button47, context: context),
+            buttonType(button: button48, context: context),
+            buttonType(button: button49, context: context),
+            buttonType(button: button50, context: context),
+            buttonType(button: button51, context: context),
+            buttonType(button: button52, context: context),
+            buttonType(button: button53, context: context),
+            buttonType(button: button54, context: context),
+            buttonType(button: button55, context: context),
+            buttonType(button: button56, context: context),
+            buttonType(button: button57, context: context),
+            buttonType(button: button58, context: context),
+            buttonType(button: button59, context: context),
+            buttonType(button: button60, context: context),
+            buttonType(button: button61, context: context),
+            buttonType(button: button62, context: context),
+            buttonType(button: button63, context: context),
+            buttonType(button: button64, context: context),
+            buttonType(button: button65, context: context),
+            buttonType(button: button66, context: context),
+            buttonType(button: button67, context: context),
+            buttonType(button: button68, context: context),
+            buttonType(button: button69, context: context),
+            buttonType(button: button70, context: context),
+            buttonType(button: button71, context: context),
+            buttonType(button: button72, context: context),
+            buttonType(button: button73, context: context),
+            buttonType(button: button74, context: context),
+            buttonType(button: button75, context: context),
+            buttonType(button: button76, context: context),
+            buttonType(button: button77, context: context),
+            buttonType(button: button78, context: context),
+            buttonType(button: button79, context: context),
+            buttonType(button: button80, context: context),
+            buttonType(button: button81, context: context),
+            buttonType(button: button82, context: context),
+            buttonType(button: button83, context: context),
+            buttonType(button: button84, context: context),
+            buttonType(button: button85, context: context),
+            buttonType(button: button86, context: context),
+            buttonType(button: button87, context: context),
+            buttonType(button: button88, context: context),
+            buttonType(button: button89, context: context),
+            buttonType(button: button90, context: context),
+            buttonType(button: button91, context: context),
+            buttonType(button: button92, context: context),
+            buttonType(button: button93, context: context),
+            buttonType(button: button94, context: context),
+            buttonType(button: button95, context: context),
+            buttonType(button: button96, context: context),
+            buttonType(button: button97, context: context),
+            buttonType(button: button98, context: context),
+            buttonType(button: button99, context: context),
+          ],
+        ).paddingDirectional(horizontal: 10));
   }
+}
+
+class S {
+  String name;
+  Future<Widget> Function(BuildContext context) onTap;
+
+  S(this.name, {required this.onTap});
 }
