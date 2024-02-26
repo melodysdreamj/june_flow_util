@@ -282,6 +282,7 @@ class FloatingActionButtonKit extends StatelessWidget {
           onTap: () {
             PracticeNoteKit().openPracticeNote(
               context,
+              title: "Floating Note",
               button00: button00!,
               button01: button01!,
               button02: button02!,

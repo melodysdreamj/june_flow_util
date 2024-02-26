@@ -8,6 +8,7 @@ import 'function_note.dart';
 class PracticeNoteKit {
   openPracticeNote(
       BuildContext context, {
+        required String title,
         required T button00,
         required T button01,
         required T button02,
@@ -114,6 +115,7 @@ class PracticeNoteKit {
       PageTransition(
         type: PageTransitionType.fade,
         child: FunctionNoteKit(
+          title: title,
           button00: button00,
           button01: button01,
           button02: button02,

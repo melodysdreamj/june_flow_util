@@ -7,6 +7,7 @@ import 'package:styled_widget/styled_widget.dart';
 class ScaffoldViewNoteKit2 extends StatelessWidget {
   const ScaffoldViewNoteKit2({
     super.key,
+    required this.title,
     required this.button00,
     required this.button01,
     required this.button02,
@@ -109,6 +110,7 @@ class ScaffoldViewNoteKit2 extends StatelessWidget {
     required this.button99,
   });
 
+  final String title;
   final S button00;
   final S button01;
   final S button02;
@@ -263,7 +265,7 @@ class ScaffoldViewNoteKit2 extends StatelessWidget {
           shrinkWrap: true,
           physics: const BouncingScrollPhysics(),
           children: [
-            const Text("Note")
+            Text(title ?? "View Note")
                 .textStyle(Theme.of(context).textTheme.displaySmall!)
                 .fontWeight(FontWeight.bold)
                 .center(),

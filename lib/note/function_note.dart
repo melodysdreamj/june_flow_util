@@ -6,6 +6,7 @@ import 'package:styled_widget/styled_widget.dart';
 class FunctionNoteKit extends StatelessWidget {
   const FunctionNoteKit({
     super.key,
+    required this.title,
     required this.button00,
     required this.button01,
     required this.button02,
@@ -108,6 +109,7 @@ class FunctionNoteKit extends StatelessWidget {
     required this.button99,
   });
 
+  final String title;
   final T button00;
   final T button01;
   final T button02;
@@ -246,7 +248,7 @@ class FunctionNoteKit extends StatelessWidget {
           shrinkWrap: true,
           physics: const BouncingScrollPhysics(),
           children: [
-            const Text("Note")
+            Text(title ?? "Note")
                 .textStyle(Theme.of(context).textTheme.displaySmall!)
                 .fontWeight(FontWeight.bold)
                 .center(),
