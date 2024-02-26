@@ -117,9 +117,9 @@ class FloatingActionButtonKit extends StatelessWidget {
     this.icon,
   });
 
-  final T? button1;
-  final T? button2;
-  final T? button3;
+  final Function(BuildContext)? button1;
+  final Function(BuildContext)? button2;
+  final Function(BuildContext)? button3;
 
   final T? button00;
   final T? button01;
@@ -250,9 +250,9 @@ class FloatingActionButtonKit extends StatelessWidget {
           child: const Text("1"),
           label: "1",
           onTap: () {
-            debugPrint("button:${button1?.name ?? "1"} clicked");
+            debugPrint("button:1 clicked");
             if (button1 != null) {
-              button1!.onTap(context);
+              button1!(context);
             }
           },
         ),
@@ -260,9 +260,9 @@ class FloatingActionButtonKit extends StatelessWidget {
           child: const Text("2"),
           label: "2",
           onTap: () {
-            debugPrint("button:${button2?.name ?? "2"} clicked");
+            debugPrint("button:2 clicked");
             if (button2 != null) {
-              button2!.onTap(context);
+              button2!(context);
             }
           },
         ),
@@ -270,9 +270,9 @@ class FloatingActionButtonKit extends StatelessWidget {
           child: const Text("3"),
           label: "3",
           onTap: () {
-            debugPrint("button:${button3?.name ?? "3"} clicked");
+            debugPrint("button:3 clicked");
             if (button3 != null) {
-              button3!.onTap(context);
+              button3!(context);
             }
           },
         ),
