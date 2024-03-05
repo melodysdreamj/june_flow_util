@@ -1,7 +1,7 @@
 name: june_flow_util
 description: "An extremely intuitive architecture with incredibly high productivity."
-version: 0.8.10
-homepage: https://github.com/melodysdreamj/june_flow_util
+version: 0.8.11
+homepage: https://github.com/melodysdreamj/juneflow_util
 
 environment:
   sdk: '>=3.2.5 <4.0.0'

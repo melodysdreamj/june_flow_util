@@ -2,7 +2,7 @@
 
 <p>
   <a href="https://doc.junes-architecture.lol">Documentation</a> •
-  <a href="https://pub.dev/packages/june_flow_util">Pub.dev</a>
+  <a href="https://pub.dev/packages/juneflow_util">Pub.dev</a>
 </p>
 
 

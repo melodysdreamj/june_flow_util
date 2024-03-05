@@ -1,7 +1,7 @@
-library june_flow_util;
+library juneflow_util;
 
-export 'package:june_flow_util/note/practice_note.dart';
-export 'package:june_flow_util/note/scaffold_view_note.dart';
+export 'note/practice_note.dart';
+export 'note/scaffold_view_note.dart';
 export 'note/function_note.dart';
 export 'component/floating_action_button_kit.dart';
 export 'functions/string_case.dart';
