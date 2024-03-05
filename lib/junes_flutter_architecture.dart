@@ -6,3 +6,4 @@ export 'note/function_note.dart';
 export 'component/floating_action_button_kit.dart';
 export 'functions/string_case.dart';
 export 'functions/random.dart';
+export 'ready_annotation/_.dart';
