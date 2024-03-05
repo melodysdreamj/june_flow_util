@@ -1,6 +1,6 @@
 // import 'package:flutter_test/flutter_test.dart';
 //
-// import 'package:junes_flutter_architecture/junes_flutter_architecture.dart';
+// import 'package:june_flow_util/june_flow_util.dart';
 //
 // void main() {
 //   test('adds one to input values', () {

@@ -1,7 +1,7 @@
-name: junes_flutter_architecture
+name: june_flow_util
 description: "An extremely intuitive architecture with incredibly high productivity."
 version: 0.8.10
-homepage: https://github.com/melodysdreamj/junes_flutter_architecture_pakage
+homepage: https://github.com/melodysdreamj/june_flow_util
 
 environment:
   sdk: '>=3.2.5 <4.0.0'
