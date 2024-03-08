@@ -15,3 +15,21 @@ class ReadyAfterMaterialApp {
 
   const ReadyAfterMaterialApp({this.index});
 }
+
+class CoverRunApp {
+  final double? index;
+
+  const CoverRunApp({this.index});
+}
+
+class CoverMyApp {
+  final double? index;
+
+  const CoverMyApp({this.index});
+}
+
+class CoverMaterialApp {
+  final double? index;
+
+  const CoverMaterialApp({this.index});
+}
