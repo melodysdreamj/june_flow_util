@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class ReadyBeforeRunApp {
   final double? index;
 
@@ -33,3 +35,13 @@ class CoverMaterialApp {
 
   const CoverMaterialApp({this.index});
 }
+
+class JuneViewAction {
+  const JuneViewAction();
+}
+
+class JuneViewEvent {
+  const JuneViewEvent();
+}
+
+void setState(VoidCallback callback) {}
