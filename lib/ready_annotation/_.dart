@@ -44,4 +44,4 @@ class JuneViewEvent {
   const JuneViewEvent();
 }
 
-void setState(VoidCallback callback) {}
+void updateState(VoidCallback callback) {}
