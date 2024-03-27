@@ -44,4 +44,12 @@ class JuneViewEvent {
   const JuneViewEvent();
 }
 
+class JuneViewChild {
+  const JuneViewChild();
+}
+
+class JuneViewMother {
+  const JuneViewMother();
+}
+
 void updateState(VoidCallback callback) {}
