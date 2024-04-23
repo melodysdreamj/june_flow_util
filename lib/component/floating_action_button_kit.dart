@@ -121,106 +121,106 @@ class FloatingActionButtonKit extends StatelessWidget {
   final Function(BuildContext)? button2;
   final Function(BuildContext)? button3;
 
-  final T? button00;
-  final T? button01;
-  final T? button02;
-  final T? button03;
-  final T? button04;
-  final T? button05;
-  final T? button06;
-  final T? button07;
-  final T? button08;
-  final T? button09;
-  final T? button10;
-  final T? button11;
-  final T? button12;
-  final T? button13;
-  final T? button14;
-  final T? button15;
-  final T? button16;
-  final T? button17;
-  final T? button18;
-  final T? button19;
-  final T? button20;
-  final T? button21;
-  final T? button22;
-  final T? button23;
-  final T? button24;
-  final T? button25;
-  final T? button26;
-  final T? button27;
-  final T? button28;
-  final T? button29;
-  final T? button30;
-  final T? button31;
-  final T? button32;
-  final T? button33;
-  final T? button34;
-  final T? button35;
-  final T? button36;
-  final T? button37;
-  final T? button38;
-  final T? button39;
-  final T? button40;
-  final T? button41;
-  final T? button42;
-  final T? button43;
-  final T? button44;
-  final T? button45;
-  final T? button46;
-  final T? button47;
-  final T? button48;
-  final T? button49;
-  final T? button50;
-  final T? button51;
-  final T? button52;
-  final T? button53;
-  final T? button54;
-  final T? button55;
-  final T? button56;
-  final T? button57;
-  final T? button58;
-  final T? button59;
-  final T? button60;
-  final T? button61;
-  final T? button62;
-  final T? button63;
-  final T? button64;
-  final T? button65;
-  final T? button66;
-  final T? button67;
-  final T? button68;
-  final T? button69;
-  final T? button70;
-  final T? button71;
-  final T? button72;
-  final T? button73;
-  final T? button74;
-  final T? button75;
-  final T? button76;
-  final T? button77;
-  final T? button78;
-  final T? button79;
-  final T? button80;
-  final T? button81;
-  final T? button82;
-  final T? button83;
-  final T? button84;
-  final T? button85;
-  final T? button86;
-  final T? button87;
-  final T? button88;
-  final T? button89;
-  final T? button90;
-  final T? button91;
-  final T? button92;
-  final T? button93;
-  final T? button94;
-  final T? button95;
-  final T? button96;
-  final T? button97;
-  final T? button98;
-  final T? button99;
+  final Function(BuildContext)? button00;
+  final Function(BuildContext)? button01;
+  final Function(BuildContext)? button02;
+  final Function(BuildContext)? button03;
+  final Function(BuildContext)? button04;
+  final Function(BuildContext)? button05;
+  final Function(BuildContext)? button06;
+  final Function(BuildContext)? button07;
+  final Function(BuildContext)? button08;
+  final Function(BuildContext)? button09;
+  final Function(BuildContext)? button10;
+  final Function(BuildContext)? button11;
+  final Function(BuildContext)? button12;
+  final Function(BuildContext)? button13;
+  final Function(BuildContext)? button14;
+  final Function(BuildContext)? button15;
+  final Function(BuildContext)? button16;
+  final Function(BuildContext)? button17;
+  final Function(BuildContext)? button18;
+  final Function(BuildContext)? button19;
+  final Function(BuildContext)? button20;
+  final Function(BuildContext)? button21;
+  final Function(BuildContext)? button22;
+  final Function(BuildContext)? button23;
+  final Function(BuildContext)? button24;
+  final Function(BuildContext)? button25;
+  final Function(BuildContext)? button26;
+  final Function(BuildContext)? button27;
+  final Function(BuildContext)? button28;
+  final Function(BuildContext)? button29;
+  final Function(BuildContext)? button30;
+  final Function(BuildContext)? button31;
+  final Function(BuildContext)? button32;
+  final Function(BuildContext)? button33;
+  final Function(BuildContext)? button34;
+  final Function(BuildContext)? button35;
+  final Function(BuildContext)? button36;
+  final Function(BuildContext)? button37;
+  final Function(BuildContext)? button38;
+  final Function(BuildContext)? button39;
+  final Function(BuildContext)? button40;
+  final Function(BuildContext)? button41;
+  final Function(BuildContext)? button42;
+  final Function(BuildContext)? button43;
+  final Function(BuildContext)? button44;
+  final Function(BuildContext)? button45;
+  final Function(BuildContext)? button46;
+  final Function(BuildContext)? button47;
+  final Function(BuildContext)? button48;
+  final Function(BuildContext)? button49;
+  final Function(BuildContext)? button50;
+  final Function(BuildContext)? button51;
+  final Function(BuildContext)? button52;
+  final Function(BuildContext)? button53;
+  final Function(BuildContext)? button54;
+  final Function(BuildContext)? button55;
+  final Function(BuildContext)? button56;
+  final Function(BuildContext)? button57;
+  final Function(BuildContext)? button58;
+  final Function(BuildContext)? button59;
+  final Function(BuildContext)? button60;
+  final Function(BuildContext)? button61;
+  final Function(BuildContext)? button62;
+  final Function(BuildContext)? button63;
+  final Function(BuildContext)? button64;
+  final Function(BuildContext)? button65;
+  final Function(BuildContext)? button66;
+  final Function(BuildContext)? button67;
+  final Function(BuildContext)? button68;
+  final Function(BuildContext)? button69;
+  final Function(BuildContext)? button70;
+  final Function(BuildContext)? button71;
+  final Function(BuildContext)? button72;
+  final Function(BuildContext)? button73;
+  final Function(BuildContext)? button74;
+  final Function(BuildContext)? button75;
+  final Function(BuildContext)? button76;
+  final Function(BuildContext)? button77;
+  final Function(BuildContext)? button78;
+  final Function(BuildContext)? button79;
+  final Function(BuildContext)? button80;
+  final Function(BuildContext)? button81;
+  final Function(BuildContext)? button82;
+  final Function(BuildContext)? button83;
+  final Function(BuildContext)? button84;
+  final Function(BuildContext)? button85;
+  final Function(BuildContext)? button86;
+  final Function(BuildContext)? button87;
+  final Function(BuildContext)? button88;
+  final Function(BuildContext)? button89;
+  final Function(BuildContext)? button90;
+  final Function(BuildContext)? button91;
+  final Function(BuildContext)? button92;
+  final Function(BuildContext)? button93;
+  final Function(BuildContext)? button94;
+  final Function(BuildContext)? button95;
+  final Function(BuildContext)? button96;
+  final Function(BuildContext)? button97;
+  final Function(BuildContext)? button98;
+  final Function(BuildContext)? button99;
 
   final IconData? icon;
 
@@ -283,106 +283,106 @@ class FloatingActionButtonKit extends StatelessWidget {
                   PracticeNoteKit().openPracticeNote(
                     context,
                     title: "Floating Note",
-                    button00: button00 ?? T("00", onTap: (context) {}),
-                    button01: button01 ?? T("01", onTap: (context) {}),
-                    button02: button02 ?? T("02", onTap: (context) {}),
-                    button03: button03 ?? T("03", onTap: (context) {}),
-                    button04: button04 ?? T("04", onTap: (context) {}),
-                    button05: button05 ?? T("05", onTap: (context) {}),
-                    button06: button06 ?? T("06", onTap: (context) {}),
-                    button07: button07 ?? T("07", onTap: (context) {}),
-                    button08: button08 ?? T("08", onTap: (context) {}),
-                    button09: button09 ?? T("09", onTap: (context) {}),
-                    button10: button10 ?? T("10", onTap: (context) {}),
-                    button11: button11 ?? T("11", onTap: (context) {}),
-                    button12: button12 ?? T("12", onTap: (context) {}),
-                    button13: button13 ?? T("13", onTap: (context) {}),
-                    button14: button14 ?? T("14", onTap: (context) {}),
-                    button15: button15 ?? T("15", onTap: (context) {}),
-                    button16: button16 ?? T("16", onTap: (context) {}),
-                    button17: button17 ?? T("17", onTap: (context) {}),
-                    button18: button18 ?? T("18", onTap: (context) {}),
-                    button19: button19 ?? T("19", onTap: (context) {}),
-                    button20: button20 ?? T("20", onTap: (context) {}),
-                    button21: button21 ?? T("21", onTap: (context) {}),
-                    button22: button22 ?? T("22", onTap: (context) {}),
-                    button23: button23 ?? T("23", onTap: (context) {}),
-                    button24: button24 ?? T("24", onTap: (context) {}),
-                    button25: button25 ?? T("25", onTap: (context) {}),
-                    button26: button26 ?? T("26", onTap: (context) {}),
-                    button27: button27 ?? T("27", onTap: (context) {}),
-                    button28: button28 ?? T("28", onTap: (context) {}),
-                    button29: button29 ?? T("29", onTap: (context) {}),
-                    button30: button30 ?? T("30", onTap: (context) {}),
-                    button31: button31 ?? T("31", onTap: (context) {}),
-                    button32: button32 ?? T("32", onTap: (context) {}),
-                    button33: button33 ?? T("33", onTap: (context) {}),
-                    button34: button34 ?? T("34", onTap: (context) {}),
-                    button35: button35 ?? T("35", onTap: (context) {}),
-                    button36: button36 ?? T("36", onTap: (context) {}),
-                    button37: button37 ?? T("37", onTap: (context) {}),
-                    button38: button38 ?? T("38", onTap: (context) {}),
-                    button39: button39 ?? T("39", onTap: (context) {}),
-                    button40: button40 ?? T("40", onTap: (context) {}),
-                    button41: button41 ?? T("41", onTap: (context) {}),
-                    button42: button42 ?? T("42", onTap: (context) {}),
-                    button43: button43 ?? T("43", onTap: (context) {}),
-                    button44: button44 ?? T("44", onTap: (context) {}),
-                    button45: button45 ?? T("45", onTap: (context) {}),
-                    button46: button46 ?? T("46", onTap: (context) {}),
-                    button47: button47 ?? T("47", onTap: (context) {}),
-                    button48: button48 ?? T("48", onTap: (context) {}),
-                    button49: button49 ?? T("49", onTap: (context) {}),
-                    button50: button50 ?? T("50", onTap: (context) {}),
-                    button51: button51 ?? T("51", onTap: (context) {}),
-                    button52: button52 ?? T("52", onTap: (context) {}),
-                    button53: button53 ?? T("53", onTap: (context) {}),
-                    button54: button54 ?? T("54", onTap: (context) {}),
-                    button55: button55 ?? T("55", onTap: (context) {}),
-                    button56: button56 ?? T("56", onTap: (context) {}),
-                    button57: button57 ?? T("57", onTap: (context) {}),
-                    button58: button58 ?? T("58", onTap: (context) {}),
-                    button59: button59 ?? T("59", onTap: (context) {}),
-                    button60: button60 ?? T("60", onTap: (context) {}),
-                    button61: button61 ?? T("61", onTap: (context) {}),
-                    button62: button62 ?? T("62", onTap: (context) {}),
-                    button63: button63 ?? T("63", onTap: (context) {}),
-                    button64: button64 ?? T("64", onTap: (context) {}),
-                    button65: button65 ?? T("65", onTap: (context) {}),
-                    button66: button66 ?? T("66", onTap: (context) {}),
-                    button67: button67 ?? T("67", onTap: (context) {}),
-                    button68: button68 ?? T("68", onTap: (context) {}),
-                    button69: button69 ?? T("69", onTap: (context) {}),
-                    button70: button70 ?? T("70", onTap: (context) {}),
-                    button71: button71 ?? T("71", onTap: (context) {}),
-                    button72: button72 ?? T("72", onTap: (context) {}),
-                    button73: button73 ?? T("73", onTap: (context) {}),
-                    button74: button74 ?? T("74", onTap: (context) {}),
-                    button75: button75 ?? T("75", onTap: (context) {}),
-                    button76: button76 ?? T("76", onTap: (context) {}),
-                    button77: button77 ?? T("77", onTap: (context) {}),
-                    button78: button78 ?? T("78", onTap: (context) {}),
-                    button79: button79 ?? T("79", onTap: (context) {}),
-                    button80: button80 ?? T("80", onTap: (context) {}),
-                    button81: button81 ?? T("81", onTap: (context) {}),
-                    button82: button82 ?? T("82", onTap: (context) {}),
-                    button83: button83 ?? T("83", onTap: (context) {}),
-                    button84: button84 ?? T("84", onTap: (context) {}),
-                    button85: button85 ?? T("85", onTap: (context) {}),
-                    button86: button86 ?? T("86", onTap: (context) {}),
-                    button87: button87 ?? T("87", onTap: (context) {}),
-                    button88: button88 ?? T("88", onTap: (context) {}),
-                    button89: button89 ?? T("89", onTap: (context) {}),
-                    button90: button90 ?? T("90", onTap: (context) {}),
-                    button91: button91 ?? T("91", onTap: (context) {}),
-                    button92: button92 ?? T("92", onTap: (context) {}),
-                    button93: button93 ?? T("93", onTap: (context) {}),
-                    button94: button94 ?? T("94", onTap: (context) {}),
-                    button95: button95 ?? T("95", onTap: (context) {}),
-                    button96: button96 ?? T("96", onTap: (context) {}),
-                    button97: button97 ?? T("97", onTap: (context) {}),
-                    button98: button98 ?? T("98", onTap: (context) {}),
-                    button99: button99 ?? T("99", onTap: (context) {}),
+                    button00: T("00", onTap: button00 ?? (context) {}),
+                    button01: T("01", onTap: button01 ?? (context) {}),
+                    button02: T("02", onTap: button02 ?? (context) {}),
+                    button03: T("03", onTap: button03 ?? (context) {}),
+                    button04: T("04", onTap: button04 ?? (context) {}),
+                    button05: T("05", onTap: button05 ?? (context) {}),
+                    button06: T("06", onTap: button06 ?? (context) {}),
+                    button07: T("07", onTap: button07 ?? (context) {}),
+                    button08: T("08", onTap: button08 ?? (context) {}),
+                    button09: T("09", onTap: button09 ?? (context) {}),
+                    button10: T("10", onTap: button10 ?? (context) {}),
+                    button11: T("11", onTap: button11 ?? (context) {}),
+                    button12: T("12", onTap: button12 ?? (context) {}),
+                    button13: T("13", onTap: button13 ?? (context) {}),
+                    button14: T("14", onTap: button14 ?? (context) {}),
+                    button15: T("15", onTap: button15 ?? (context) {}),
+                    button16: T("16", onTap: button16 ?? (context) {}),
+                    button17: T("17", onTap: button17 ?? (context) {}),
+                    button18: T("18", onTap: button18 ?? (context) {}),
+                    button19: T("19", onTap: button19 ?? (context) {}),
+                    button20: T("20", onTap: button20 ?? (context) {}),
+                    button21: T("21", onTap: button21 ?? (context) {}),
+                    button22: T("22", onTap: button22 ?? (context) {}),
+                    button23: T("23", onTap: button23 ?? (context) {}),
+                    button24: T("24", onTap: button24 ?? (context) {}),
+                    button25: T("25", onTap: button25 ?? (context) {}),
+                    button26: T("26", onTap: button26 ?? (context) {}),
+                    button27: T("27", onTap: button27 ?? (context) {}),
+                    button28: T("28", onTap: button28 ?? (context) {}),
+                    button29: T("29", onTap: button29 ?? (context) {}),
+                    button30: T("30", onTap: button30 ?? (context) {}),
+                    button31: T("31", onTap: button31 ?? (context) {}),
+                    button32: T("32", onTap: button32 ?? (context) {}),
+                    button33: T("33", onTap: button33 ?? (context) {}),
+                    button34: T("34", onTap: button34 ?? (context) {}),
+                    button35: T("35", onTap: button35 ?? (context) {}),
+                    button36: T("36", onTap: button36 ?? (context) {}),
+                    button37: T("37", onTap: button37 ?? (context) {}),
+                    button38: T("38", onTap: button38 ?? (context) {}),
+                    button39: T("39", onTap: button39 ?? (context) {}),
+                    button40: T("40", onTap: button40 ?? (context) {}),
+                    button41: T("41", onTap: button41 ?? (context) {}),
+                    button42: T("42", onTap: button42 ?? (context) {}),
+                    button43: T("43", onTap: button43 ?? (context) {}),
+                    button44: T("44", onTap: button44 ?? (context) {}),
+                    button45: T("45", onTap: button45 ?? (context) {}),
+                    button46: T("46", onTap: button46 ?? (context) {}),
+                    button47: T("47", onTap: button47 ?? (context) {}),
+                    button48: T("48", onTap: button48 ?? (context) {}),
+                    button49: T("49", onTap: button49 ?? (context) {}),
+                    button50: T("50", onTap: button50 ?? (context) {}),
+                    button51: T("51", onTap: button51 ?? (context) {}),
+                    button52: T("52", onTap: button52 ?? (context) {}),
+                    button53: T("53", onTap: button53 ?? (context) {}),
+                    button54: T("54", onTap: button54 ?? (context) {}),
+                    button55: T("55", onTap: button55 ?? (context) {}),
+                    button56: T("56", onTap: button56 ?? (context) {}),
+                    button57: T("57", onTap: button57 ?? (context) {}),
+                    button58: T("58", onTap: button58 ?? (context) {}),
+                    button59: T("59", onTap: button59 ?? (context) {}),
+                    button60: T("60", onTap: button60 ?? (context) {}),
+                    button61: T("61", onTap: button61 ?? (context) {}),
+                    button62: T("62", onTap: button62 ?? (context) {}),
+                    button63: T("63", onTap: button63 ?? (context) {}),
+                    button64: T("64", onTap: button64 ?? (context) {}),
+                    button65: T("65", onTap: button65 ?? (context) {}),
+                    button66: T("66", onTap: button66 ?? (context) {}),
+                    button67: T("67", onTap: button67 ?? (context) {}),
+                    button68: T("68", onTap: button68 ?? (context) {}),
+                    button69: T("69", onTap: button69 ?? (context) {}),
+                    button70: T("70", onTap: button70 ?? (context) {}),
+                    button71: T("71", onTap: button71 ?? (context) {}),
+                    button72: T("72", onTap: button72 ?? (context) {}),
+                    button73: T("73", onTap: button73 ?? (context) {}),
+                    button74: T("74", onTap: button74 ?? (context) {}),
+                    button75: T("75", onTap: button75 ?? (context) {}),
+                    button76: T("76", onTap: button76 ?? (context) {}),
+                    button77: T("77", onTap: button77 ?? (context) {}),
+                    button78: T("78", onTap: button78 ?? (context) {}),
+                    button79: T("79", onTap: button79 ?? (context) {}),
+                    button80: T("80", onTap: button80 ?? (context) {}),
+                    button81: T("81", onTap: button81 ?? (context) {}),
+                    button82: T("82", onTap: button82 ?? (context) {}),
+                    button83: T("83", onTap: button83 ?? (context) {}),
+                    button84: T("84", onTap: button84 ?? (context) {}),
+                    button85: T("85", onTap: button85 ?? (context) {}),
+                    button86: T("86", onTap: button86 ?? (context) {}),
+                    button87: T("87", onTap: button87 ?? (context) {}),
+                    button88: T("88", onTap: button88 ?? (context) {}),
+                    button89: T("89", onTap: button89 ?? (context) {}),
+                    button90: T("90", onTap: button90 ?? (context) {}),
+                    button91: T("91", onTap: button91 ?? (context) {}),
+                    button92: T("92", onTap: button92 ?? (context) {}),
+                    button93: T("93", onTap: button93 ?? (context) {}),
+                    button94: T("94", onTap: button94 ?? (context) {}),
+                    button95: T("95", onTap: button95 ?? (context) {}),
+                    button96: T("96", onTap: button96 ?? (context) {}),
+                    button97: T("97", onTap: button97 ?? (context) {}),
+                    button98: T("98", onTap: button98 ?? (context) {}),
+                    button99: T("99", onTap: button99 ?? (context) {}),
                   );
                 },
               ),
