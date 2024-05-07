@@ -52,4 +52,10 @@ class JuneViewMother {
   const JuneViewMother();
 }
 
+class ReadyForListener {
+  final double? index;
+
+  const ReadyForListener({this.index});
+}
+
 void updateState(VoidCallback callback) {}
