@@ -1,5 +1,6 @@
 library juneflow_util;
 
+export 'component/basic_button.dart';
 export 'note/practice_note.dart';
 export 'note/scaffold_view_note.dart';
 export 'note/function_note.dart';
