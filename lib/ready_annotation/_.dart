@@ -58,4 +58,6 @@ class ReadyForListener {
   const ReadyForListener({this.index});
 }
 
+class ListenersByLego {}
+
 void updateState(VoidCallback callback) {}
